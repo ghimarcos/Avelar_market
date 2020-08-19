@@ -11,5 +11,9 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
+  /*metodo para navegar entre as páginas*/
+  login(){
+    this.navCtrl.setRoot('CategoriasPage');
+  }
 
 }

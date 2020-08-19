@@ -1,0 +1,8 @@
+{
+  "name": "Avelar_market",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

@@ -1,8 +1,10 @@
 page-home {
     
+    background-color: white;
 
     h3{
         text-align: center;
+        color:#262c30 ;
     }
 
     img{
@@ -13,5 +15,23 @@ page-home {
         padding: 10px;
     }
    
+   .button{
+       
+       border-radius: 20px;
+   }
+   .btn_registrar{
+       background-color: bisque;
+       color: #262c30;
+       border-radius: 20px;
+   }
    
+   .input{
+       
+   }
+
+   .ion-item {
+    background-color: white;
+    
+    }
+    
 }   

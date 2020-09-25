@@ -11,6 +11,6 @@ export class categoriaService{
     }
 
     findAll() : Observable < CategoriaDTO[] > {
-        return this.http.get<CategoriaDTO[]>(`${API_CONFIG.baseUrl}/cozinhas`);
+        return this.http.get<CategoriaDTO[]>(`${API_CONFIG.baseUrl}/categorias/`);
     }
 }
